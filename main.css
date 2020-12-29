@@ -164,7 +164,8 @@ section {
 }
 
 .experience-item img {
-  max-width: 80%;
+  display: block;
+  width: 100%;
 }
 
 .experience-item p,
