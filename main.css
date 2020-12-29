@@ -158,6 +158,11 @@ section {
   border-radius: 2rem;
 }
 
+.experience-item a {
+  display: flex;
+  justify-content: center;
+}
+
 .experience-item img {
   max-width: 80%;
 }
