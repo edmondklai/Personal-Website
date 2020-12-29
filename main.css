@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&&display=swap');
 
 
 * {
@@ -11,11 +11,18 @@ html {
 
 body {
   font-family: "Noto Sans", sans-serif;
+  letter-spacing: 1px;
   background-color: rgb(242, 252, 252);
+  height: 100%;
+  margin: 0;
 }
 
-.about-title {
+.section-title {
   text-align: center;
+}
+
+#about {
+  background-color: rgb(240, 240, 255);
 }
 
 .main-footer__link, .main-nav__item {
@@ -24,4 +31,12 @@ body {
 
 .main-footer__link a, .main-nav__item a {
   text-decoration: none;
+}
+
+section {
+  padding: 0.6rem;
+}
+
+.skills__descriptions {
+  display: none;
 }
