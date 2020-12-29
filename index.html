@@ -28,117 +28,128 @@
     </header>
     <main>
       <section id="about">
-        <h2 class="section-title">Hi, I am Edmond!</h2>
-        <img alt="Edmond" />
-        <article>
-          <p>
-            A full time software developer at Champaign County Regional Planning
-            Commission. With a Master's Degree in Geographic Information
-            Science, I want to leverage my spatial analytics skills to solve
-            various problems. With 2 years of experience in full stack
-            development, I am learning more about dev-op and web developmeent at
-            the same time.
-          </p>
-          <p>
-            I love to play sports and volunteer at local non-profit at my spare
-            time to help those who are in-needs.
-          </p>
-        </article>
+        <div class="section-container">
+          <h2 class="section-title">Hi, I am Edmond Lai~</h2>
+          <img
+            class="desktop-image"
+            src="assets/desktop-image.png"
+            alt="Edmond"
+          />
+          <img
+            class="mobile-image"
+            src="assets/mobile-image.png"
+            alt="Edmond"
+          />
+          <article>
+            <p>
+              A full time software developer at Champaign County Regional
+              Planning Commission. With a Master's Degree in Geographic
+              Information Science, I want to leverage my spatial analytics
+              skills to solve various problems. With 2 years of experience in
+              full stack development, I am learning more about dev-op and web
+              developmeent at the same time.
+            </p>
+            <p>
+              I love to play sports and volunteer at local non-profit at my
+              spare time to help those who are in-needs.
+            </p>
+          </article>
+        </div>
       </section>
       <section id="skills">
-        <h2 class="section-title">Skills</h2>
-        <ul class="skills__descrptions">
-          <li class="skills__descriptions">
-            Develop front-end driven web application using reusable web
-            components
-          </li>
-          <li class="skills__descriptions">
-            Design and build microservices with REST API using Flask and PostGIS
-          </li>
-          <li class="skills__descriptions">
-            Manage application infrastructure with Docker and Kubernetes to
-            minimized deployment time and increase deployment frequency
-          </li>
-          <li class="skills__descriptions">
-            Set up CI/CD pipeline for automated application deployment, testing,
-            build process, and manage container registry with GitLab CI
-          </li>
-        </ul>
-        <ul class="skills__general">
-          <li class="skills__general-educations">
-            <span class="material-icons">book</span>Education
-            <div class="skills__general-education">
-              <h3>M.S. Geographic Information Science</h3>
-              <h4>2017 - GPA 3.97</h4>
-            </div>
-            <div class="skills__general-education">
-              <h3>B.S. Environmental Sciences</h3>
-              <h4>2011 - GPA 3.63</h4>
-            </div>
-          </li>
-          <li class="skills__general-languages">
-            <span class="material-icons">language</span>Language
-            <p>Python, JavaScript(TypeScript), HTML5, CSS3, PHP, R</p>
-          </li>
-          <li class="skills__general-tools">
-            <span class="material-icons">dns</span>Tools
-            <ul>
-              <li><b>Frontend:</b> StencilJS, ReactJS, jQuery, Ionic</li>
-              <li><b>Backend:</b> NodeJS, Flask, Django, ExpressJS</li>
-              <li><b>Database:</b> PostgreSQL, MySQL, MongoDB</li>
-              <li><b>Data Analysis:</b> Pandas, Jupyter, R, QGIS, ArcGIS</li>
-              <li><b>Version Control:</b> git, GitLab, GitHub</li>
-              <li><b>DevOps:</b> Docker, Kubernetes, GitLab CI</li>
-              <li><b>Infrastructure:</b> Linux, Nginx, Apache</li>
-            </ul>
-          </li>
-        </ul>
+        <div class="section-container">
+          <h2 class="section-title">What I've learned</h2>
+          <ul class="skills__general">
+            <li class="skills__general-item">
+              <div><span class="material-icons">language</span>Languages</div>
+              <p>Python, JavaScript(TypeScript), HTML5, CSS3, PHP, R</p>
+            </li>
+            <li class="skills__general-item">
+              <div><span class="material-icons">dns</span>Tools</div>
+              <ul id="skills__tools">
+                <label>Frontend:</label>
+                <li>StencilJS, ReactJS, jQuery, Ionic</li>
+
+                <label>Backend:</label>
+                <li>NodeJS, Flask, Django, ExpressJS</li>
+
+                <label>Database:</label>
+                <li>PostgreSQL, MySQL, MongoDB</li>
+
+                <label>Data Analysis:</label>
+                <li>Pandas, Jupyter, R, QGIS, ArcGIS</li>
+
+                <label>Version Control:</label>
+                <li>git, GitLab, GitHub</li>
+
+                <label>DevOps:</label>
+                <li>Docker, Kubernetes, GitLab CI</li>
+
+                <label>Infrastructure:</label>
+                <li>Linux, Nginx, Apache</li>
+              </ul>
+            </li>
+            <li class="skills__general-item">
+              <div><span class="material-icons">book</span>Education</div>
+              <div class="skills__general-education">
+                <h3>M.S. Geographic Information Science</h3>
+                <p>2017 - GPA 3.97</p>
+              </div>
+              <div class="skills__general-education">
+                <h3>B.S. Environmental Sciences</h3>
+                <p>2011 - GPA 3.63</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
       <section id="experiences">
-        <h2 class="section-title">Experiences</h2>
-        <ul class="experience-items">
-          <li class="experience-item">
-            <h3>Software Developer</h3>
-            <h4>Aug 2019 - Present</h4>
-            <img alt="Software Developer" />
-            <p>
-              Front-end driven application using StencilJS built usable web
-              components. Developed regional workforce data portal, online
-              accessibility tools, landuse inventory webapp. Managed
-              applications with Docker and Kubernetes.
-            </p>
-          </li>
-          <li class="experience-item">
-            <h3>Information and Data Specialist</h3>
-            <h4>Jan 2018 - Aug 2019</h4>
-            <img alt="Information and Data Specialist" />
-            <p>
-              Built an internal CRM system to track clients information and
-              create custom reporsts. Conducted requirement analsysis and
-              modified the database schema of SuiteCRM. Developed custom reports
-              and visualization for users.
-            </p>
-          </li>
-          <li class="experience-item">
-            <h3>GIS Programming Intern</h3>
-            <h4>Feb 2017 - Jan 2018</h4>
-            <img alt="GIS Pogramming Intern" />
-            <p>
-              Developed Python based network analysis tool that provided the
-              accessibility score and infrastructure score.
-            </p>
-          </li>
-          <li class="experience-item">
-            <h3>Youth Program Coordinator</h3>
-            <h4>Aug 2014 - Aug 2016</h4>
-            <img alt="Youth Program Coordinator" />
-            <p>
-              Implemented various after school activities for disadvantage
-              youths. Taught Lego Robotic and other programming class to high
-              school students.
-            </p>
-          </li>
-        </ul>
+        <div class="section-container">
+          <h2 class="section-title">What I've done</h2>
+          <ul class="experience-items">
+            <li class="experience-item">
+              <h3>Software Developer</h3>
+              <h4>Aug 2019 - Present</h4>
+              <img alt="Software Developer" />
+              <p>
+                Front-end driven application using StencilJS built usable web
+                components. Developed regional workforce data portal, online
+                accessibility tools, landuse inventory webapp. Managed
+                applications with Docker and Kubernetes.
+              </p>
+            </li>
+            <li class="experience-item">
+              <h3>Information and Data Specialist</h3>
+              <h4>Jan 2018 - Aug 2019</h4>
+              <img alt="Information and Data Specialist" />
+              <p>
+                Built an internal CRM system to track clients information and
+                create custom reporsts. Conducted requirement analsysis and
+                modified the database schema of SuiteCRM. Developed custom
+                reports and visualization for users.
+              </p>
+            </li>
+            <li class="experience-item">
+              <h3>GIS Programming Intern</h3>
+              <h4>Feb 2017 - Jan 2018</h4>
+              <img alt="GIS Pogramming Intern" />
+              <p>
+                Developed Python based network analysis tool that provided the
+                accessibility score and infrastructure score.
+              </p>
+            </li>
+            <li class="experience-item">
+              <h3>Youth Program Coordinator</h3>
+              <h4>Aug 2014 - Aug 2016</h4>
+              <img alt="Youth Program Coordinator" />
+              <p>
+                Implemented various after school activities for disadvantage
+                youths. Taught Lego Robotic and other programming class to high
+                school students.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="main-footer">
