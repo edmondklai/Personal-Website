@@ -1,3 +1,3 @@
-# Personal-Website
+# personal-site
 
-This is the html, js, and css code for my personal website.  edmondklai.net
+Repo for www.edmondklai.net

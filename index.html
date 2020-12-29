@@ -1,121 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
-    
-
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="personal profile" />
+    <meta name="author" content="Edmond Lai" />
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <title>Edmond K. Lai - Home</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-
     <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="assets/js/hover.zoom.js"></script>
-    <script src="assets/js/hover.zoom.conf.js"></script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+    <link href="main.css" rel="stylesheet" />
   </head>
 
   <body>
-
-    <!-- Static navbar -->
-    <div class="navbar navbar-inverse navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">EDMOND</a>
+    <main>
+      <section id="about">
+        <div class="section-container">
+          <h2 class="section-title">Hi, I am Edmond Lai~</h2>
+          <img
+            class="desktop-image"
+            src="assets/desktop-image.png"
+            alt="Edmond"
+          />
+          <img
+            class="mobile-image"
+            src="assets/mobile-image.png"
+            alt="Edmond"
+          />
+          <article>
+            <p>
+              A full time software developer at Champaign County Regional
+              Planning Commission. With a Master's Degree in Geographic
+              Information Science, I want to leverage my spatial analytics
+              skills to solve various problems. With 2 years of experience in
+              full stack development, I am learning more about dev-op and web
+              developmeent at the same time.
+            </p>
+            <p>
+              I love to play sports and volunteer at local non-profit at my
+              spare time to help those who are in-needs.
+            </p>
+          </article>
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
+      </section>
+      <section id="skills">
+        <div class="section-container">
+          <h2 class="section-title">What I've learned</h2>
+          <ul class="skills__general">
+            <li class="skills__general-item">
+              <div><span class="material-icons">language</span>Languages</div>
+              <p>Python, JavaScript(TypeScript), HTML5, CSS3, PHP, R</p>
+            </li>
+            <li class="skills__general-item">
+              <div><span class="material-icons">dns</span>Tools</div>
+              <ul id="skills__tools">
+                <label>Frontend:</label>
+                <li>StencilJS, ReactJS, jQuery, Ionic</li>
+
+                <label>Backend:</label>
+                <li>NodeJS, Flask, Django, ExpressJS</li>
+
+                <label>Database:</label>
+                <li>PostgreSQL, MySQL, MongoDB</li>
+
+                <label>Data Analysis:</label>
+                <li>Pandas, Jupyter, R, QGIS, ArcGIS</li>
+
+                <label>Version Control:</label>
+                <li>git, GitLab, GitHub</li>
+
+                <label>DevOps:</label>
+                <li>Docker, Kubernetes, GitLab CI</li>
+
+                <label>Infrastructure:</label>
+                <li>Linux, Nginx, Apache</li>
+              </ul>
+            </li>
+            <li class="skills__general-item">
+              <div><span class="material-icons">book</span>Education</div>
+              <div class="skills__general-education">
+                <h3>M.S. Geographic Information Science</h3>
+                <p>2017 - GPA 3.97</p>
+              </div>
+              <div class="skills__general-education">
+                <h3>B.S. Environmental Sciences</h3>
+                <p>2011 - GPA 3.63</p>
+              </div>
+            </li>
           </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-
-	<!-- +++++ Welcome Section +++++ -->
-	<div id="ww">
-	    <div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 centered">
-					
-					<h1>Hi, I am Edmond!</h1>
-					<p><img src="assets/img/edmond.png" alt="Edmond" width=315px height=400px></p>
-					<p>Hello everybody. I'm Edmond.  I am a Master's student studying Geographic Infomation Science at the University of Illinois at Urbana-Champaign. I am confident, result-oriented, persistent, organized, detail-oriented, friendly, fast learner, team player, and a leader. 
-
-					<p>My knowledge in Geographic Information Science and spatial analytic skills applies to  critical decision making in the different aspect of a company.  As a Master’s student, I am acquiring knowledge in relational database design, statistical analysis with spatial data, cartographic design and web-map development.  My communication skills and technical expertise allows me to communicate effectively with both technical personnel and clients alike.</p>
-
-					<p>My objective is to continue to grow and learn more about the newest technology in the industry by involving in professional internship and projects.   
-					</p>
-				
-				</div><!-- /col-lg-8 -->
-			</div><!-- /row -->
-	    </div> <!-- /container -->
-	</div><!-- /ww -->
-	
-
-
-	
-	
-	<!-- +++++ Footer Section +++++ -->
-	
-	<div id="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4">
-					<h4>Site Map</h4>
-					<p>
-						<a href="index.html">Home</a><br/>
-						<a href="projects.html">Projects</a><br/>
-						<a href="about.html">About</a><br/>
-						<a href="blog.html">Blog</a><br>
-						<a href="contact.html">Contact</a><br>
-					</p>
-				</div><!-- /col-lg-4 -->
-				
-				<div class="col-lg-4">
-					<h4>My Links</h4>
-					<p>
-						<a href="https://www.linkedin.com/in/edmondklai" target="_blank">Linkedin</a><br/>
-						<a href="https://www.facebook.com/Ed.K.Lai" target="_blank">Facebook</a><br/>
-						<a href="https://twitter.com/EdKLai" target="_blank">Twitter</a>
-					</p>
-				</div><!-- /col-lg-4 -->
-				
-				<div class="col-lg-4">
-					<h4>About Edmond</h4>
-					<p>All rights reserved for edmondklai.net</p>
-				</div><!-- /col-lg-4 -->
-			
-			</div>
-		
-		</div>
-	</div>
-	
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/bootstrap.min.js"></script>
+        </div>
+      </section>
+      <section id="experiences">
+        <div class="section-container">
+          <h2 class="section-title">What I've done</h2>
+          <ul class="experience-items">
+            <li class="experience-item">
+              <h3>Software Developer</h3>
+              <h4>Aug 2019 - Present</h4>
+              <a href="https://maps.ccrpc.org/tip-2020-2023"
+                ><img
+                  src="assets/tip.png"
+                  alt="Transportatin Improvement Plan"
+                />
+              </a>
+              <p>
+                Front-end driven application using StencilJS built usable web
+                components. Developed regional workforce data portal, online
+                accessibility tools, landuse inventory webapp. Managed
+                applications with Docker and Kubernetes.
+              </p>
+            </li>
+            <li class="experience-item">
+              <h3>Information and Data Specialist</h3>
+              <h4>Jan 2018 - Aug 2019</h4>
+              <a href="https://ccrpc.org">
+                <img src="assets/suitecrm.png" alt="SuiteCRM" />
+              </a>
+              <p>
+                Built an internal CRM system to track clients information and
+                create custom reporsts. Conducted requirement analsysis and
+                modified the database schema of SuiteCRM. Developed custom
+                reports and visualization for users.
+              </p>
+            </li>
+            <li class="experience-item">
+              <h3>GIS Programming Intern</h3>
+              <h4>Feb 2017 - Jan 2018</h4>
+              <a
+                href="https://ccrpc.gitlab.io/access-score/#map=12/40.11032/-88.22888"
+              >
+                <img
+                  src="assets/access_score.png"
+                  alt="GIS Pogramming Intern"
+                />
+              </a>
+              <p>
+                Developed Python based network analysis tool that provided the
+                accessibility score and infrastructure score.
+              </p>
+            </li>
+            <li class="experience-item">
+              <h3>Youth Program Coordinator</h3>
+              <h4>Aug 2014 - Aug 2016</h4>
+              <a href="https://puitak.org">
+                <img src="assets/youth.jpg"Youth Program Coordinator" />
+              </a>
+              <p>
+                Implemented various after school activities for disadvantage
+                youths. Taught Lego Robotic and other programming class to high
+                school students.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <nav class="main-footer__nav">
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="https://www.linkedin.com/in/edmondklai/">LinkedIn</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="https://twitter.com/EdKLai">Twitter</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="https://learnthe.net">Blog</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
