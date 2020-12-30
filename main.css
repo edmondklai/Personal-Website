@@ -158,14 +158,23 @@ section {
   border-radius: 2rem;
 }
 
-.experience-item a {
+.experience-item__image-container {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  min-width: 80%;
+  max-width: 500px;
 }
 
-.experience-item img {
-  display: block;
+.experience-item__image-container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
+}
+
+.experience-item__image-container a img {
+  max-width: 50vw;
+  min-width: 80%;
 }
 
 .experience-item p,
